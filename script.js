@@ -118,8 +118,8 @@ const sectionObserver = new IntersectionObserver(obsCallBack, {
 });
 
 allSections.forEach((section) => {
-  // sectionObserver.observe(section);
-  // section.classList.add("animate");
+  sectionObserver.observe(section);
+  section.classList.add("animate");
 });
 
 //Images hover Animation
